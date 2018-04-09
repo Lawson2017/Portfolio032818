@@ -1,0 +1,50 @@
+div h1 {
+	text-align: center;
+}
+
+ul {
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+#footer {
+  background-color: #343a40;	
+  text-align: center;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+.p-5 {
+	color: #fff;
+}
+
+#content h4 {
+	text-align: center;
+}
+
+
+#content img {
+	height: 400px;
+	width: 600px;
+	margin-bottom: 20px;
+}
+
+.slide-fade-enter,
+/* How the element looks at the very end of the animation when it's leaving (in most cases it will be the same as enter) */
+.slide-fade-leave-to {
+    opacity: 0;
+}
+
+/* Determines how long the animation will take */
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+    transition: 0.5s ease;
+}
