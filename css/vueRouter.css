@@ -1,6 +1,10 @@
 div h1 {
 	text-align: center;
 }
+body {
+	background-color: #262B30;
+	color: #fff;
+}
 
 ul {
 	text-align: center;

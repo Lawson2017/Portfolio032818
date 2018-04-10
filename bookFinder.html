@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Shortcut Icon -->
+		<link rel="Shortcut Icon" href="favicon.ico">
+		<!-- This sets the language that your characters are in -->
+		<meta charset="utf-8">
+		<!-- This ensures that your media queries work -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- This is what appears in the tab of your browser page -->
+		<title>Book Finder</title>
+
+		<!-- This makes the bootstrap css work -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+		<!-- This connects my CSS external stylesheet to the index.html -->
+		<link rel="stylesheet" href="css/bookFinder.css">
+	</head>
+	<body>
+
+			<div class="container">
+				<div class="row text-center">
+				  <div class="col-sm-3">
+				  	<h3>Search Book Titles</h3>
+				  	<!-- user input -->
+				    <input id="search" placeholder="Title or Author" autofocus/>
+				    <br><br>
+				    <!-- user submit -->
+					<button id="searchBtn" class="btn btn-danger btn-lg btn-block">SEARCH</button>
+				  </div>
+				  <div class="col-sm-9">
+				    <!-- display results -->
+				    <div id="results"></div>
+				  </div>
+				</div>
+			</div>
+		
+		<!-- Google Books API -->
+		<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- This gives access to the jquery library -->
+		<script
+		src="https://code.jquery.com/jquery-3.2.1.js"
+		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+		crossorigin="anonymous"></script>
+
+		<!-- Popper is required for bootstrap 4 JS functionality -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+		<!-- This makes bootstrap 4 JS work -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+		<!-- This connects my JS external file to the index.html -->
+		<script src="js/bookFinder.js" type="text/javascript"></script>
+
+	</body>
+</html>
