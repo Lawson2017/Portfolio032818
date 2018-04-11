@@ -1,0 +1,22 @@
+.commenting {
+	text-align: center;
+	margin-top: 13%;
+}
+
+.comment {
+    display: block;
+    margin-top: 13%;
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 10%;
+}
+
+.btn-danger {
+	margin-top: 5%
+}
+
+.header {
+	height: 40px;
+	width: 100%;
+	background-color: gray;
+}
